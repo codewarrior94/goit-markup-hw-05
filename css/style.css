@@ -121,6 +121,7 @@ img {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--regular-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-list-link:hover, 
@@ -150,6 +151,7 @@ img {
   color: var(--specific-text-color);
   margin-left: auto;
   margin-right: 50px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-logo-ico {
@@ -157,6 +159,7 @@ img {
   height: 12px;
   margin-right: 10px;
   fill: var(--specific-text-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel {
@@ -165,12 +168,14 @@ img {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--specific-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel-logo-ico {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail:hover,
@@ -425,6 +430,7 @@ img {
   width: 20px;
   height: 20px;
   fill: var(--links-main-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link {
@@ -434,6 +440,7 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
@@ -477,6 +484,7 @@ img {
   height: 90px;
   border-radius: 4px;
   border: 1px solid var(--links-main-color);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-box:hover,
@@ -492,6 +500,7 @@ img {
   width: 90px;
   height: 50px;
   fill: var(--links-main-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-cards-links:hover .clients-ico,
@@ -542,6 +551,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--additional-text-color);
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-contacts-link:hover,
@@ -622,6 +632,9 @@ img {
   border: none;
   outline: none; 
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+              color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filters-btn-list button:hover, 
@@ -713,6 +726,7 @@ img {
   height: 100%;
   box-sizing: border-box;
   display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
